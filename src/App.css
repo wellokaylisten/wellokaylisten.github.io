@@ -1,0 +1,17 @@
+:root {
+  /* CSS HEX */
+    --sky-blue: #8ecae6ff;
+    --blue-green: #219ebcff;
+    --prussian-blue: #023047ff;
+    --selective-yellow: #ffb703ff;
+    --ut-orange: #fb8500ff;
+}
+
+body { 
+  background-color: var(--prussian-blue);
+}
+
+.downarrow { 
+
+}
+
