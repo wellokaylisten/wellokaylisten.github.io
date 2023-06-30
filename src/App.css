@@ -1,17 +1,56 @@
 :root {
-  /* CSS HEX */
-    --sky-blue: #8ecae6ff;
-    --blue-green: #219ebcff;
-    --prussian-blue: #023047ff;
-    --selective-yellow: #ffb703ff;
-    --ut-orange: #fb8500ff;
+
+  --background: #071c3d;
+  --text: #16acc9;
+  --emphasis: #d3e6e8;
+  --accent:#f0767d;
 }
 
 body { 
-  background-color: var(--prussian-blue);
+  background-color: var(--emphasis);
 }
 
-.downarrow { 
 
+
+
+.text{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px; 
+        color: var(--emphasis);
+}
+
+.websiteHeader{
+  background-color: var(--emphasis);
+font-family: 'Open Sans', sans-serif;
+    font-size: 72px;
+    letter-spacing: 2px;
+    color: var(--background);
+    font-weight: 700;
+    padding: 20px;
+}
+
+b {
+  background-color: var(--accent);
+  color: var(--background); 
+  font-family: 'Open Sans', sans-serif;
+  padding: 2px; 
+}
+
+
+
+.navigation{
+  position: absolute;
+  top: 0px;  
+  width: 50%;
+  margin: 0 auto; 
+  
+}
+
+.centered-element {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
